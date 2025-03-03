@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../trail.dart';
+import '../sample/trail.dart';
 
 class CheckoutPage extends StatelessWidget {
   final List<Food> cartItems;

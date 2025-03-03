@@ -6,7 +6,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../trail.dart';
+import '../sample/trail.dart';
 
 class CartPage extends StatefulWidget {
   @override

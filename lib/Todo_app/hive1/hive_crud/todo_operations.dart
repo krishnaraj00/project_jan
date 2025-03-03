@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_ce/hive.dart';
 import 'package:hive_ce_flutter/adapters.dart';
-import 'package:http/http.dart';
+
 
 void main() async {
   await Hive.initFlutter();

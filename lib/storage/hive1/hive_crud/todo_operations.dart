@@ -35,12 +35,11 @@ class _HiveTodoState extends State<HiveTodo> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Center(
-            child: Text(
-          'My Task',
-          style: GoogleFonts.actor(
-              fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
-        )),
+        title: Text(
+                  'My Task',
+                  style: GoogleFonts.actor(
+          fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
+                ),
       ),
       drawer: Drawer(
         child: ListView(
